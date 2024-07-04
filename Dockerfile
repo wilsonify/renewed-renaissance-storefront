@@ -22,6 +22,9 @@ USER node
 # Install ALL dependencies. We need devDependencies for the build command.
 RUN yarn install --production=false --frozen-lockfile --ignore-scripts --non-interactive --no-cache
 
+# Install reaction CLI globally
+RUN yarn global add @reactioncommerce/cli
+
 ENV BUILD_ENV=production NODE_ENV=production
 
 # hadolint ignore=SC2046
