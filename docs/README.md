@@ -1,4 +1,4 @@
-# Example Storefront Documentation
+# Renewed Renaissance Documentation
 
 ## Architectural Decisions Records
 

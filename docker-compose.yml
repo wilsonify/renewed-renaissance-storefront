@@ -8,16 +8,17 @@ version: '3.4'
 
 networks:
   reaction:
-    external:
-      name: reaction.localhost
 
 services:
   web:
-    image: reactioncommerce/example-storefront:5.2.1
-    env_file:
-      - ./.env
-    networks:
-      default:
-      reaction:
+    image: renewed-renaissance-storefront:latest
+    env_file: [ ./.env ]
+    networks: [ reaction ]
     ports:
       - 4000:4000
+  init:
+    image: reaction-cli:latest
+    env_file: [ ./.env ]
+    entrypoint: [ /usr/local/bin/npx ]
+    command: [ reaction create-project admin myadmin ]
+    networks: [ reaction ]

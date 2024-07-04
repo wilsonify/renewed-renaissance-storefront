@@ -68,7 +68,7 @@ const Header: FC<HeaderProps> = ({ classes, shop, uiStore }) => {
           <Typography className={classes.title} color="inherit" variant="h6">
             {/* @ts-ignore TODO: Refactor link to address type error */}
             <Link route="/">
-              {shop ? <ShopLogo shopName={shop.name} /> : "Example Storefront"}
+              {shop ? <ShopLogo shopName={shop.name} /> : "Renewed Renaissance"}
             </Link>
           </Typography>
 

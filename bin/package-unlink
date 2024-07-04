@@ -29,12 +29,12 @@ fi
 IFS="$(printf "\n\t")"
 
 # Unlink the yalc dependency, remove the package drectory and npm install
-echo "Unlinking package from Example Storefront..."
+echo "Unlinking package from Renewed Renaissance..."
 docker-compose exec web sh -c "cd /usr/local/src/app && yalc remove ${package_name}"
 docker-compose exec web sh -c "rm -rf /usr/local/src/app/node_modules/${package_name} && npm i"
 docker-compose exec web sh -c  "cd /usr/local/src/app && yalc update"
 
 # Fool nodemon into thinking something has changed so that it restarts.
 # Touch first file found in /pages with .js extension
-echo "Restarting Example Storefront..."
+echo "Restarting Renewed Renaissance..."
 docker-compose exec web sh -c "touch -c $(ls ./pages/*.js | head -n1)"

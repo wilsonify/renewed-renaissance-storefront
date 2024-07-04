@@ -1,7 +1,7 @@
 {
-  "name": "example-storefront",
+  "name": "renewed-renaissance-storefront",
   "version": "5.2.1",
-  "description": "The Example Storefront serves as a reference for implementing a web based storefront using the Reaction Commerce GraphQL API.",
+  "description": "The Renewed Renaissance serves as a reference for implementing a web based storefront using the Reaction Commerce GraphQL API.",
   "keywords": [],
   "author": {
     "name": "Reaction Commerce",

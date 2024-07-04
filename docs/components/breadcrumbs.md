@@ -1,9 +1,9 @@
 # Breadcrumbs
 
-Breadcrumbs can be either a location or heiarchial based navigation trail to help users see how they navigated to a specific page.
+Breadcrumbs can be either a location or hierarchical based navigation trail to help users see how they navigated to a specific page.
 
 This startkit uses breadcrumbs in two locations:
-1. On any `Tag` grid page, we use a heiarchial system to show where the current tag lives
+1. On any `Tag` grid page, we use a hierarchical system to show where the current tag lives
 1. On any Product Detail Page (PDP), we use our `routingStore` to create a navigation based system using the stored `tag`, to show how the user has landed on this PDP.
 
 ## Tag Grid Breadcrumbs

@@ -14,8 +14,8 @@ orbs:
 defaults: &defaults
   environment:
     - CI_SCRIPTS: "npx --quiet --package @reactioncommerce/ci-scripts@1.9.1"
-    - DOCKER_REPOSITORY: "reactioncommerce/example-storefront"
-    - DOCKER_NAME: "example-storefront"
+    - DOCKER_REPOSITORY: "wilsonify/renewed-renaissance-storefront"
+    - DOCKER_NAME: "renewed-renaissance-storefront"
     - GITOPS_PR_WEBHOOK: "https://w603b5hwp1.execute-api.us-east-1.amazonaws.com/dev/pullrequests"
     - GLOBAL_CACHE_VERSION: “v3”
   docker:

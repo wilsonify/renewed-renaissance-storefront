@@ -1,84 +1,84 @@
-## [5.2.1](https://github.com/reactioncommerce/example-storefront/compare/v5.2.0...v5.2.1) (2022-04-28)
+## [5.2.1](https://github.com/wilsonify/renewed-renaissance-storefront/compare/v5.2.0...v5.2.1) (2022-04-28)
 
 
 ### Bug Fixes
 
-* muitheme variable change ([ddad190](https://github.com/reactioncommerce/example-storefront/commit/ddad190681c8913b8a7a34cfc3b1d9027c319d45))
+* muitheme variable change ([ddad190](https://github.com/wilsonify/renewed-renaissance-storefront/commit/ddad190681c8913b8a7a34cfc3b1d9027c319d45))
 
-# [5.2.0](https://github.com/reactioncommerce/example-storefront/compare/v5.1.3...v5.2.0) (2022-03-28)
+# [5.2.0](https://github.com/wilsonify/renewed-renaissance-storefront/compare/v5.1.3...v5.2.0) (2022-03-28)
 
 
 ### Features
 
-* added latest tag to docker images ([9f93132](https://github.com/reactioncommerce/example-storefront/commit/9f9313209f15d619a1480273a6a9b7f8bf7afc19))
+* added latest tag to docker images ([9f93132](https://github.com/wilsonify/renewed-renaissance-storefront/commit/9f9313209f15d619a1480273a6a9b7f8bf7afc19))
 
-## [5.1.3](https://github.com/reactioncommerce/example-storefront/compare/v5.1.2...v5.1.3) (2022-02-15)
-
-
-### Bug Fixes
-
-* remove create-hydra command from old version ([b56f089](https://github.com/reactioncommerce/example-storefront/commit/b56f08973ac565e091ddcd79beb0f418fe019308))
-* upgrade @segment/snippet from 4.4.0 to 4.14.2 ([9bb070b](https://github.com/reactioncommerce/example-storefront/commit/9bb070b1fb1dc7a9439e9670b02ac2b83b28acbd))
-
-## [5.1.2](https://github.com/reactioncommerce/example-storefront/compare/v5.1.1...v5.1.2) (2022-02-15)
+## [5.1.3](https://github.com/wilsonify/renewed-renaissance-storefront/compare/v5.1.2...v5.1.3) (2022-02-15)
 
 
 ### Bug Fixes
 
-* upgrade @material-ui/core from 4.10.2 to 4.12.3 ([bcc9c25](https://github.com/reactioncommerce/example-storefront/commit/bcc9c25d2d3d17b5f3eb1155f70925c5570650fd))
+* remove create-hydra command from old version ([b56f089](https://github.com/wilsonify/renewed-renaissance-storefront/commit/b56f08973ac565e091ddcd79beb0f418fe019308))
+* upgrade @segment/snippet from 4.4.0 to 4.14.2 ([9bb070b](https://github.com/wilsonify/renewed-renaissance-storefront/commit/9bb070b1fb1dc7a9439e9670b02ac2b83b28acbd))
 
-## [5.1.1](https://github.com/reactioncommerce/example-storefront/compare/v5.1.0...v5.1.1) (2021-11-17)
-
-
-### Bug Fixes
-
-* add package link check ([450bea0](https://github.com/reactioncommerce/example-storefront/commit/450bea0d8380d19a652aa653e21a82daa817a8e2))
-
-# [5.1.0](https://github.com/reactioncommerce/example-storefront/compare/v5.0.3...v5.1.0) (2021-10-16)
+## [5.1.2](https://github.com/wilsonify/renewed-renaissance-storefront/compare/v5.1.1...v5.1.2) (2022-02-15)
 
 
 ### Bug Fixes
 
-* keep stripe method ([1aa98dc](https://github.com/reactioncommerce/example-storefront/commit/1aa98dc5882bf57cb2867df23bf478372986ca18))
-* lint ([1669dc8](https://github.com/reactioncommerce/example-storefront/commit/1669dc83ff5c22c13f4aa4e0124eb5f3a004781e))
-* lint errors ([6e42b9d](https://github.com/reactioncommerce/example-storefront/commit/6e42b9dbe9e03d7e1b1d0c95d0c15659124f9100))
-* lint errors in StripeCard, add stripe js lib ([4d9569d](https://github.com/reactioncommerce/example-storefront/commit/4d9569d3eb8c8e76915ded20767c05f3848ac0a7))
-* lint errors in StripeCard, add stripe js lib ([e0140f1](https://github.com/reactioncommerce/example-storefront/commit/e0140f1858305e984082988a90db9bf775973cf4))
-* remove stripe old payment method, SCA remains ([73623ca](https://github.com/reactioncommerce/example-storefront/commit/73623caf480e7e69c92073e9c23609a9319cfa68))
-* remove stripe, stripe SCA remains ([3d25fd6](https://github.com/reactioncommerce/example-storefront/commit/3d25fd63401857768f820df776f486ce4f5920a9))
+* upgrade @material-ui/core from 4.10.2 to 4.12.3 ([bcc9c25](https://github.com/wilsonify/renewed-renaissance-storefront/commit/bcc9c25d2d3d17b5f3eb1155f70925c5570650fd))
+
+## [5.1.1](https://github.com/wilsonify/renewed-renaissance-storefront/compare/v5.1.0...v5.1.1) (2021-11-17)
+
+
+### Bug Fixes
+
+* add package link check ([450bea0](https://github.com/wilsonify/renewed-renaissance-storefront/commit/450bea0d8380d19a652aa653e21a82daa817a8e2))
+
+# [5.1.0](https://github.com/wilsonify/renewed-renaissance-storefront/compare/v5.0.3...v5.1.0) (2021-10-16)
+
+
+### Bug Fixes
+
+* keep stripe method ([1aa98dc](https://github.com/wilsonify/renewed-renaissance-storefront/commit/1aa98dc5882bf57cb2867df23bf478372986ca18))
+* lint ([1669dc8](https://github.com/wilsonify/renewed-renaissance-storefront/commit/1669dc83ff5c22c13f4aa4e0124eb5f3a004781e))
+* lint errors ([6e42b9d](https://github.com/wilsonify/renewed-renaissance-storefront/commit/6e42b9dbe9e03d7e1b1d0c95d0c15659124f9100))
+* lint errors in StripeCard, add stripe js lib ([4d9569d](https://github.com/wilsonify/renewed-renaissance-storefront/commit/4d9569d3eb8c8e76915ded20767c05f3848ac0a7))
+* lint errors in StripeCard, add stripe js lib ([e0140f1](https://github.com/wilsonify/renewed-renaissance-storefront/commit/e0140f1858305e984082988a90db9bf775973cf4))
+* remove stripe old payment method, SCA remains ([73623ca](https://github.com/wilsonify/renewed-renaissance-storefront/commit/73623caf480e7e69c92073e9c23609a9319cfa68))
+* remove stripe, stripe SCA remains ([3d25fd6](https://github.com/wilsonify/renewed-renaissance-storefront/commit/3d25fd63401857768f820df776f486ce4f5920a9))
 
 
 ### Features
 
-* Add Stripe Payments Intents API SCA-compliant Payment Component ([30fa912](https://github.com/reactioncommerce/example-storefront/commit/30fa912c83e32df4b3f3c184ed5d5ec6c1ae46a0))
+* Add Stripe Payments Intents API SCA-compliant Payment Component ([30fa912](https://github.com/wilsonify/renewed-renaissance-storefront/commit/30fa912c83e32df4b3f3c184ed5d5ec6c1ae46a0))
 
-## [5.0.3](https://github.com/reactioncommerce/example-storefront/compare/v5.0.2...v5.0.3) (2021-09-03)
-
-
-### Bug Fixes
-
-* login allowed from checkout page ([d22bea2](https://github.com/reactioncommerce/example-storefront/commit/d22bea2fd5d32770aba1d8a61f82565f337395bd))
-
-## [5.0.2](https://github.com/reactioncommerce/example-storefront/compare/v5.0.1...v5.0.2) (2021-08-31)
+## [5.0.3](https://github.com/wilsonify/renewed-renaissance-storefront/compare/v5.0.2...v5.0.3) (2021-09-03)
 
 
 ### Bug Fixes
 
-* contributing guide ([a778712](https://github.com/reactioncommerce/example-storefront/commit/a778712fa7383c60287a5c149dec33408010fb78))
+* login allowed from checkout page ([d22bea2](https://github.com/wilsonify/renewed-renaissance-storefront/commit/d22bea2fd5d32770aba1d8a61f82565f337395bd))
 
-## [5.0.1](https://github.com/reactioncommerce/example-storefront/compare/v5.0.0...v5.0.1) (2021-08-31)
+## [5.0.2](https://github.com/wilsonify/renewed-renaissance-storefront/compare/v5.0.1...v5.0.2) (2021-08-31)
 
 
 ### Bug Fixes
 
-* correct admin URL ([1526165](https://github.com/reactioncommerce/example-storefront/commit/15261655f445c92f88400a8b036ffc070e90299d))
+* contributing guide ([a778712](https://github.com/wilsonify/renewed-renaissance-storefront/commit/a778712fa7383c60287a5c149dec33408010fb78))
 
-# [5.0.0](https://github.com/reactioncommerce/example-storefront/compare/v4.1.2...v5.0.0) (2021-08-25)
+## [5.0.1](https://github.com/wilsonify/renewed-renaissance-storefront/compare/v5.0.0...v5.0.1) (2021-08-31)
+
+
+### Bug Fixes
+
+* correct admin URL ([1526165](https://github.com/wilsonify/renewed-renaissance-storefront/commit/15261655f445c92f88400a8b036ffc070e90299d))
+
+# [5.0.0](https://github.com/wilsonify/renewed-renaissance-storefront/compare/v4.1.2...v5.0.0) (2021-08-25)
 
 
 ### Features
 
-* breaking use account-js for authentication ([7a509c9](https://github.com/reactioncommerce/example-storefront/commit/7a509c9717e2a71c3f0722b8bf366e88a18d1240))
+* breaking use account-js for authentication ([7a509c9](https://github.com/wilsonify/renewed-renaissance-storefront/commit/7a509c9717e2a71c3f0722b8bf366e88a18d1240))
 
 
 ### BREAKING CHANGES
@@ -87,84 +87,84 @@
 
 Signed-off-by: Akarshit Wal <akarshitwal@gmail.com>
 
-## [4.1.2](https://github.com/reactioncommerce/example-storefront/compare/v4.1.1...v4.1.2) (2021-08-23)
+## [4.1.2](https://github.com/wilsonify/renewed-renaissance-storefront/compare/v4.1.1...v4.1.2) (2021-08-23)
 
 
 ### Bug Fixes
 
-* snyk vulnerability of apollo client ([9f8fecb](https://github.com/reactioncommerce/example-storefront/commit/9f8fecbef4d852ed2177aa722151e56a711420b1))
-* upgrade @apollo/client from 3.0.0-rc.4 to 3.3.21 ([a6f3099](https://github.com/reactioncommerce/example-storefront/commit/a6f3099a4f6ec64083e25ec98b5e1b5d459e4986))
+* snyk vulnerability of apollo client ([9f8fecb](https://github.com/wilsonify/renewed-renaissance-storefront/commit/9f8fecbef4d852ed2177aa722151e56a711420b1))
+* upgrade @apollo/client from 3.0.0-rc.4 to 3.3.21 ([a6f3099](https://github.com/wilsonify/renewed-renaissance-storefront/commit/a6f3099a4f6ec64083e25ec98b5e1b5d459e4986))
 
-## [4.1.1](https://github.com/reactioncommerce/example-storefront/compare/v4.1.0...v4.1.1) (2021-08-23)
-
-
-### Bug Fixes
-
-* upgrade graphql from 14.1.1 to 14.7.0 ([3b97799](https://github.com/reactioncommerce/example-storefront/commit/3b977990afd068a72bc13f48bac7382d50fbb3a2))
-* upgrade mdi-material-ui from 5.9.0 to 5.33.1 ([323fdff](https://github.com/reactioncommerce/example-storefront/commit/323fdff30afb5a0601f40b7c8c67a97479955bbf))
-* upgrade styled-components from 5.1.1 to 5.3.0 ([7672cad](https://github.com/reactioncommerce/example-storefront/commit/7672cad4f37844ae1839a2d90b8bd6a107586b34))
-* upgrade swr from 0.1.18 to 0.5.6 ([cb39c7a](https://github.com/reactioncommerce/example-storefront/commit/cb39c7a9b2bd1c625a6096199dac1d128af74e35))
-
-# [4.1.0](https://github.com/reactioncommerce/example-storefront/compare/v4.0.2...v4.1.0) (2021-06-23)
+## [4.1.1](https://github.com/wilsonify/renewed-renaissance-storefront/compare/v4.1.0...v4.1.1) (2021-08-23)
 
 
 ### Bug Fixes
 
-* enable semantic releae ([601dd87](https://github.com/reactioncommerce/example-storefront/commit/601dd8708f6b1ba9909332dd0b107795aa8dc103))
-* remove dry from semantic release ([c623a85](https://github.com/reactioncommerce/example-storefront/commit/c623a8541d97ea8355792dc226f2c625e8063b23))
+* upgrade graphql from 14.1.1 to 14.7.0 ([3b97799](https://github.com/wilsonify/renewed-renaissance-storefront/commit/3b977990afd068a72bc13f48bac7382d50fbb3a2))
+* upgrade mdi-material-ui from 5.9.0 to 5.33.1 ([323fdff](https://github.com/wilsonify/renewed-renaissance-storefront/commit/323fdff30afb5a0601f40b7c8c67a97479955bbf))
+* upgrade styled-components from 5.1.1 to 5.3.0 ([7672cad](https://github.com/wilsonify/renewed-renaissance-storefront/commit/7672cad4f37844ae1839a2d90b8bd6a107586b34))
+* upgrade swr from 0.1.18 to 0.5.6 ([cb39c7a](https://github.com/wilsonify/renewed-renaissance-storefront/commit/cb39c7a9b2bd1c625a6096199dac1d128af74e35))
+
+# [4.1.0](https://github.com/wilsonify/renewed-renaissance-storefront/compare/v4.0.2...v4.1.0) (2021-06-23)
+
+
+### Bug Fixes
+
+* enable semantic releae ([601dd87](https://github.com/wilsonify/renewed-renaissance-storefront/commit/601dd8708f6b1ba9909332dd0b107795aa8dc103))
+* remove dry from semantic release ([c623a85](https://github.com/wilsonify/renewed-renaissance-storefront/commit/c623a8541d97ea8355792dc226f2c625e8063b23))
 
 
 ### Features
 
-* add typescript support ([bcf17cd](https://github.com/reactioncommerce/example-storefront/commit/bcf17cde13647dce51ca7d4f7f95cc3b69a362e9))
+* add typescript support ([bcf17cd](https://github.com/wilsonify/renewed-renaissance-storefront/commit/bcf17cde13647dce51ca7d4f7f95cc3b69a362e9))
 
 # v4.0.2
 
-example-storefront v4.0.2 adds patch features or bug fixes and contains no breaking changes since v4.0.0.
+renewed-renaissance-storefront v4.0.2 adds patch features or bug fixes and contains no breaking changes since v4.0.0.
 
 ## Chore
 
- - chore: adding git hooks for commit-msg ([#753](https://github.com/reactioncommerce/example-storefront/pull/753))
- - chore: add package-unlink ([#745](https://github.com/reactioncommerce/example-storefront/pull/745))
- - chore: add package-link file to storefront ([#745](https://github.com/reactioncommerce/example-storefront/pull/745))
- - chore(deps): Bump ini from 1.3.5 to 1.3.7 ([#745](https://github.com/reactioncommerce/example-storefront/pull/745))
+ - chore: adding git hooks for commit-msg ([#753](https://github.com/wilsonify/renewed-renaissance-storefront/pull/753))
+ - chore: add package-unlink ([#745](https://github.com/wilsonify/renewed-renaissance-storefront/pull/745))
+ - chore: add package-link file to storefront ([#745](https://github.com/wilsonify/renewed-renaissance-storefront/pull/745))
+ - chore(deps): Bump ini from 1.3.5 to 1.3.7 ([#745](https://github.com/wilsonify/renewed-renaissance-storefront/pull/745))
 
 ## Fixes
 
- - change log corrections ([#754](https://github.com/reactioncommerce/example-storefront/pull/754))
- - fix: add third parameter from hook destructure ([#747](https://github.com/reactioncommerce/example-storefront/pull/747))
- - fix: fix linting error ([#751](https://github.com/reactioncommerce/example-storefront/pull/751))
- - fix: merge truck to clear tests ([#746](https://github.com/reactioncommerce/example-storefront/pull/746))
- - fix: merge trunk to pass tests ([#745](https://github.com/reactioncommerce/example-storefront/pull/745))
- - add correct permissions on file ([#745](https://github.com/reactioncommerce/example-storefront/pull/745))
- - (fix): readding removed space ([#751](https://github.com/reactioncommerce/example-storefront/pull/751))
- - (fix): readding removed space ([#751](https://github.com/reactioncommerce/example-storefront/pull/751))
- - (fix): add check for slug before link ([#751](https://github.com/reactioncommerce/example-storefront/pull/751))
- - (bugfix): pinning docker to higher version ([#749](https://github.com/reactioncommerce/example-storefront/pull/749))
- - (bugfix): check shop variable for null ([#746](https://github.com/reactioncommerce/example-storefront/pull/746))
- - (bugfix): not pre-rendering cart with shop ([#746](https://github.com/reactioncommerce/example-storefront/pull/746))
- - add package-update bin script ([#745](https://github.com/reactioncommerce/example-storefront/pull/745))
- - update docker-compose to use base image which installs yalc ([#745](https://github.com/reactioncommerce/example-storefront/pull/745))
- - fix: issue#710 Shop name not persisting on Mobile Nav ([#738](https://github.com/reactioncommerce/example-storefront/pull/738))
+ - change log corrections ([#754](https://github.com/wilsonify/renewed-renaissance-storefront/pull/754))
+ - fix: add third parameter from hook destructure ([#747](https://github.com/wilsonify/renewed-renaissance-storefront/pull/747))
+ - fix: fix linting error ([#751](https://github.com/wilsonify/renewed-renaissance-storefront/pull/751))
+ - fix: merge truck to clear tests ([#746](https://github.com/wilsonify/renewed-renaissance-storefront/pull/746))
+ - fix: merge trunk to pass tests ([#745](https://github.com/wilsonify/renewed-renaissance-storefront/pull/745))
+ - add correct permissions on file ([#745](https://github.com/wilsonify/renewed-renaissance-storefront/pull/745))
+ - (fix): readding removed space ([#751](https://github.com/wilsonify/renewed-renaissance-storefront/pull/751))
+ - (fix): readding removed space ([#751](https://github.com/wilsonify/renewed-renaissance-storefront/pull/751))
+ - (fix): add check for slug before link ([#751](https://github.com/wilsonify/renewed-renaissance-storefront/pull/751))
+ - (bugfix): pinning docker to higher version ([#749](https://github.com/wilsonify/renewed-renaissance-storefront/pull/749))
+ - (bugfix): check shop variable for null ([#746](https://github.com/wilsonify/renewed-renaissance-storefront/pull/746))
+ - (bugfix): not pre-rendering cart with shop ([#746](https://github.com/wilsonify/renewed-renaissance-storefront/pull/746))
+ - add package-update bin script ([#745](https://github.com/wilsonify/renewed-renaissance-storefront/pull/745))
+ - update docker-compose to use base image which installs yalc ([#745](https://github.com/wilsonify/renewed-renaissance-storefront/pull/745))
+ - fix: issue#710 Shop name not persisting on Mobile Nav ([#738](https://github.com/wilsonify/renewed-renaissance-storefront/pull/738))
 
 ## Contributors
 
  Special thanks to Halton Xu for contributing to the release!
 
 # v4.0.1
-Example Storefront v4.0.1 adds minor features, and does contain breaking changes since v4.0.1
+Renewed Renaissance v4.0.1 adds minor features, and does contain breaking changes since v4.0.1
 
 ## Fixes
-fix: changes made to address book does not reflect in UI ([#747](https://github.com/reactioncommerce/example-storefront/pull/747))
-fix: Error on PDP when product is missing slug ([#751](https://github.com/reactioncommerce/example-storefront/pull/751))
-fix: pinning docker to higher version ([#749](https://github.com/reactioncommerce/example-storefront/pull/749))
+fix: changes made to address book does not reflect in UI ([#747](https://github.com/wilsonify/renewed-renaissance-storefront/pull/747))
+fix: Error on PDP when product is missing slug ([#751](https://github.com/wilsonify/renewed-renaissance-storefront/pull/751))
+fix: pinning docker to higher version ([#749](https://github.com/wilsonify/renewed-renaissance-storefront/pull/749))
 
 ## Chores
-chore: add package-link file to storefront ([#745](https://github.com/reactioncommerce/example-storefront/pull/745))
+chore: add package-link file to storefront ([#745](https://github.com/wilsonify/renewed-renaissance-storefront/pull/745))
 
 # v4.0.0
 
-Example Storefront v4.0.0 adds major features and performance enhancements, and does contain breaking changes since v3.1.0
+Renewed Renaissance v4.0.0 adds major features and performance enhancements, and does contain breaking changes since v3.1.0
 
 _This is a reminder that starting with v3.x, all Reaction projects have begun tracking their versions independently, and this release **will** work with the latest releases of all other Reaction projects, even though the major version number may be different._
 
@@ -178,27 +178,27 @@ _This is a reminder that starting with v3.x, all Reaction projects have begun tr
 
 ## Refactors
 
-- refactor: Storefront v2 ([#667](https://github.com/reactioncommerce/example-storefront/pull/667))
-- refactor: Revalidate index page, require instant revalidation if no shop is present during build ([#698](https://github.com/reactioncommerce/example-storefront/pull/698))
-- refactor: Return Not found if either product or shop are missing ([#696](https://github.com/reactioncommerce/example-storefront/pull/696))
-- refactor: Use CANONICAL_URL for sitemap route ([#690](https://github.com/reactioncommerce/example-storefront/pull/690))
+- refactor: Storefront v2 ([#667](https://github.com/wilsonify/renewed-renaissance-storefront/pull/667))
+- refactor: Revalidate index page, require instant revalidation if no shop is present during build ([#698](https://github.com/wilsonify/renewed-renaissance-storefront/pull/698))
+- refactor: Return Not found if either product or shop are missing ([#696](https://github.com/wilsonify/renewed-renaissance-storefront/pull/696))
+- refactor: Use CANONICAL_URL for sitemap route ([#690](https://github.com/wilsonify/renewed-renaissance-storefront/pull/690))
 
 ## Fixes
 
-- fix: Fix for 2 vulnerabilities ([#727](https://github.com/reactioncommerce/example-storefront/pull/727))
-- fix: don't execute unnecessary requests for anonymous cart on initial load ([#705](https://github.com/reactioncommerce/example-storefront/pull/705))
-- fix: Set _isMounted to true after component mounted ([#700](https://github.com/reactioncommerce/example-storefront/pull/700))
-- fix: docker production build ([#693](https://github.com/reactioncommerce/example-storefront/pull/693))
-- fix: fix broken unit test ([#682](https://github.com/reactioncommerce/example-storefront/pull/682))
-- fix: runtime build issues ([#685](https://github.com/reactioncommerce/example-storefront/pull/685))
+- fix: Fix for 2 vulnerabilities ([#727](https://github.com/wilsonify/renewed-renaissance-storefront/pull/727))
+- fix: don't execute unnecessary requests for anonymous cart on initial load ([#705](https://github.com/wilsonify/renewed-renaissance-storefront/pull/705))
+- fix: Set _isMounted to true after component mounted ([#700](https://github.com/wilsonify/renewed-renaissance-storefront/pull/700))
+- fix: docker production build ([#693](https://github.com/wilsonify/renewed-renaissance-storefront/pull/693))
+- fix: fix broken unit test ([#682](https://github.com/wilsonify/renewed-renaissance-storefront/pull/682))
+- fix: runtime build issues ([#685](https://github.com/wilsonify/renewed-renaissance-storefront/pull/685))
 
 ## Chores
 
-- chore(deps): Bump elliptic from 6.5.2 to 6.5.3 ([#717](https://github.com/reactioncommerce/example-storefront/pull/717))
-- chore: Bump lodash from 4.17.15 to 4.17.19 ([#706](https://github.com/reactioncommerce/example-storefront/pull/706))
-- chore: update README and CHANGELOG to reflect recent updates ([#687](https://github.com/reactioncommerce/example-storefront/pull/687))
-- chore: Setup react-testing-library and some clean up ([#686](https://github.com/reactioncommerce/example-storefront/pull/686))
-- chore: fix various eslint errors and warnings ([#684](https://github.com/reactioncommerce/example-storefront/pull/684))
+- chore(deps): Bump elliptic from 6.5.2 to 6.5.3 ([#717](https://github.com/wilsonify/renewed-renaissance-storefront/pull/717))
+- chore: Bump lodash from 4.17.15 to 4.17.19 ([#706](https://github.com/wilsonify/renewed-renaissance-storefront/pull/706))
+- chore: update README and CHANGELOG to reflect recent updates ([#687](https://github.com/wilsonify/renewed-renaissance-storefront/pull/687))
+- chore: Setup react-testing-library and some clean up ([#686](https://github.com/wilsonify/renewed-renaissance-storefront/pull/686))
+- chore: fix various eslint errors and warnings ([#684](https://github.com/wilsonify/renewed-renaissance-storefront/pull/684))
 
 ## Contributors
 
@@ -206,50 +206,50 @@ Thanks to @janus-reith for contributing to this release! 🎉
 
 # v3.1.0
 
-This release of `example-storefront` is designed to work with v3.x of the Reaction API.
+This release of `renewed-renaissance-storefront` is designed to work with v3.x of the Reaction API.
 
 ### Chores
 
-- chore: bump https-proxy-agent from 2.2.2 to 2.2.4 ([#669](http://github.com/reactioncommerce/example-storefront/pull/669))
-- chore: switch to 3.0.0 Docker tag ([#659](http://github.com/reactioncommerce/example-storefront/pull/659))
+- chore: bump https-proxy-agent from 2.2.2 to 2.2.4 ([#669](http://github.com/wilsonify/renewed-renaissance-storefront/pull/669))
+- chore: switch to 3.0.0 Docker tag ([#659](http://github.com/wilsonify/renewed-renaissance-storefront/pull/659))
 
 # v3.0.0
 
-This is the v3.0.0 release of `example-storefront`, designed to work with v3.0.0 of the Reaction API.
+This is the v3.0.0 release of `renewed-renaissance-storefront`, designed to work with v3.0.0 of the Reaction API.
 
 ## Features
 
-- feat: remove `-beta` from GraphQL paths [#646](https://github.com/reactioncommerce/example-storefront/pull/646)
-- feat: Use Lambda webhook for automated PR creation and merging into reaction-gitops [#651](https://github.com/reactioncommerce/example-storefront/pull/651)
-- feat: implemented change password flow and standard OpenID logout flow [#637](https://github.com/reactioncommerce/example-storefront/pull/637)
-- feat: auto-create Hydra client on startup [#628](https://github.com/reactioncommerce/example-storefront/pull/628)
+- feat: remove `-beta` from GraphQL paths [#646](https://github.com/wilsonify/renewed-renaissance-storefront/pull/646)
+- feat: Use Lambda webhook for automated PR creation and merging into reaction-gitops [#651](https://github.com/wilsonify/renewed-renaissance-storefront/pull/651)
+- feat: implemented change password flow and standard OpenID logout flow [#637](https://github.com/wilsonify/renewed-renaissance-storefront/pull/637)
+- feat: auto-create Hydra client on startup [#628](https://github.com/wilsonify/renewed-renaissance-storefront/pull/628)
 
 ## Fixes
 
-- fix: update query with required shopIds array [#656](https://github.com/reactioncommerce/example-storefront/pull/656)
-- fixes: made `bin/setup` handle special characters in variables [#639](https://github.com/reactioncommerce/example-storefront/pull/639)
-- fix: params for withTag API query [#621](https://github.com/reactioncommerce/example-storefront/pull/621)
-- fix: handle OAUTH2_IDP_HOST_URL with no ending slash and missing shop [#627](https://github.com/reactioncommerce/example-storefront/pull/627)
+- fix: update query with required shopIds array [#656](https://github.com/wilsonify/renewed-renaissance-storefront/pull/656)
+- fixes: made `bin/setup` handle special characters in variables [#639](https://github.com/wilsonify/renewed-renaissance-storefront/pull/639)
+- fix: params for withTag API query [#621](https://github.com/wilsonify/renewed-renaissance-storefront/pull/621)
+- fix: handle OAUTH2_IDP_HOST_URL with no ending slash and missing shop [#627](https://github.com/wilsonify/renewed-renaissance-storefront/pull/627)
 
 ## Chores
 
-- chore: reconfigure docker-compose networks [#653](https://github.com/reactioncommerce/example-storefront/pull/653)
-- chore: copy changes from 2.x/trunk [#650](https://github.com/reactioncommerce/example-storefront/pull/650)
-- chore: use published image for docker-compose [#623](https://github.com/reactioncommerce/example-storefront/pull/623)
+- chore: reconfigure docker-compose networks [#653](https://github.com/wilsonify/renewed-renaissance-storefront/pull/653)
+- chore: copy changes from 2.x/trunk [#650](https://github.com/wilsonify/renewed-renaissance-storefront/pull/650)
+- chore: use published image for docker-compose [#623](https://github.com/wilsonify/renewed-renaissance-storefront/pull/623)
 
 ## Refactors
 
-- refactor: Update token name `cartToken` [#616](https://github.com/reactioncommerce/example-storefront/pull/616)
+- refactor: Update token name `cartToken` [#616](https://github.com/wilsonify/renewed-renaissance-storefront/pull/616)
 
 ## Notes
 
 *These changes were originally tested and released in our alpha and beta releases*
 
-- [v3.0.0-beta.2](https://github.com/reactioncommerce/example-storefront/releases/tag/v3.0.0-beta.2)
-- [v3.0.0-beta](https://github.com/reactioncommerce/example-storefront/releases/tag/v3.0.0-beta)
-- [v3.0.0-alpha.3](https://github.com/reactioncommerce/example-storefront/releases/tag/v3.0.0-alpha.3)
-- [v3.0.0-alpha.2](https://github.com/reactioncommerce/example-storefront/releases/tag/v3.0.0-alpha.2)
-- [v3.0.0-alpha](https://github.com/reactioncommerce/example-storefront/releases/tag/v3.0.0-alpha)
+- [v3.0.0-beta.2](https://github.com/wilsonify/renewed-renaissance-storefront/releases/tag/v3.0.0-beta.2)
+- [v3.0.0-beta](https://github.com/wilsonify/renewed-renaissance-storefront/releases/tag/v3.0.0-beta)
+- [v3.0.0-alpha.3](https://github.com/wilsonify/renewed-renaissance-storefront/releases/tag/v3.0.0-alpha.3)
+- [v3.0.0-alpha.2](https://github.com/wilsonify/renewed-renaissance-storefront/releases/tag/v3.0.0-alpha.2)
+- [v3.0.0-alpha](https://github.com/wilsonify/renewed-renaissance-storefront/releases/tag/v3.0.0-alpha)
 
 *The following Reaction projects are being released one time in coordination as v3.0.0*
 
@@ -257,51 +257,51 @@ This is the v3.0.0 release of `example-storefront`, designed to work with v3.0.0
 - [Reaction Hydra](https://github.com/reactioncommerce/reaction-hydra)
 - [Reaction Identity](https://github.com/reactioncommerce/reaction-identity)
 - [Reaction Admin (beta)](https://github.com/reactioncommerce/reaction-admin)
-- [Example Storefront](https://github.com/reactioncommerce/example-storefront)
+- [Renewed Renaissance](https://github.com/wilsonify/renewed-renaissance-storefront)
 - [Reaction Development Platform](https://github.com/reactioncommerce/reaction-development-platform)
 
 *After this release, Reaction releases will no longer be coordinated across all projects - we'll release each project independently, as needed. This means version numbers will no longer be in sync. The newest versions of each project will work together.*
 
 # v2.9.1
 
-Example Storefront v2.9.1 is a patch update to keep this project in sync with [Reaction v2.9.1](https://github.com/reactioncommerce/reaction) and [reaction-hydra v2.9.1](https://github.com/reactioncommerce/reaction-hydra)
+Renewed Renaissance v2.9.1 is a patch update to keep this project in sync with [Reaction v2.9.1](https://github.com/reactioncommerce/reaction) and [reaction-hydra v2.9.1](https://github.com/reactioncommerce/reaction-hydra)
 
 ## Fixes
 
-- fix: login from storefront [#633](https://github.com/reactioncommerce/example-storefront/pull/633)
+- fix: login from storefront [#633](https://github.com/wilsonify/renewed-renaissance-storefront/pull/633)
 
 # v2.9.0
 
-Example Storefront v2.9.0 is a minor update to keep this project in sync with [Reaction v2.9.0](https://github.com/reactioncommerce/reaction) and [reaction-hydra v2.9.0](https://github.com/reactioncommerce/reaction-hydra)
+Renewed Renaissance v2.9.0 is a minor update to keep this project in sync with [Reaction v2.9.0](https://github.com/reactioncommerce/reaction) and [reaction-hydra v2.9.0](https://github.com/reactioncommerce/reaction-hydra)
 
 # v2.8.1
 
-Example Storefront v2.8.1 is a patch update to keep this project in sync with [Reaction v2.8.1](https://github.com/reactioncommerce/reaction) and [reaction-hydra v2.8.1](https://github.com/reactioncommerce/reaction-hydra)
+Renewed Renaissance v2.8.1 is a patch update to keep this project in sync with [Reaction v2.8.1](https://github.com/reactioncommerce/reaction) and [reaction-hydra v2.8.1](https://github.com/reactioncommerce/reaction-hydra)
 
 # v2.8.0
 
-Example Storefront v2.8.0 is a minor update to keep this project in sync with [Reaction v2.8.0](https://github.com/reactioncommerce/reaction) and [reaction-hydra v2.8.0](https://github.com/reactioncommerce/reaction-hydra)
+Renewed Renaissance v2.8.0 is a minor update to keep this project in sync with [Reaction v2.8.0](https://github.com/reactioncommerce/reaction) and [reaction-hydra v2.8.0](https://github.com/reactioncommerce/reaction-hydra)
 
 # v2.7.0
 
-Example Storefront v2.7.0 is a minor update to keep this project in sync with [Reaction v2.7.0](https://github.com/reactioncommerce/reaction) and [reaction-hydra v2.7.0](https://github.com/reactioncommerce/reaction-hydra)
+Renewed Renaissance v2.7.0 is a minor update to keep this project in sync with [Reaction v2.7.0](https://github.com/reactioncommerce/reaction) and [reaction-hydra v2.7.0](https://github.com/reactioncommerce/reaction-hydra)
 
 # v2.6.0
 
-Example Storefront v2.6.0 is a minor update to keep this project in sync with [Reaction v2.6.0](https://github.com/reactioncommerce/reaction) and [reaction-hydra v2.6.0](https://github.com/reactioncommerce/reaction-hydra)
+Renewed Renaissance v2.6.0 is a minor update to keep this project in sync with [Reaction v2.6.0](https://github.com/reactioncommerce/reaction) and [reaction-hydra v2.6.0](https://github.com/reactioncommerce/reaction-hydra)
 
 ## Fixes
 
-fix: restore empty_node_modules volume [#591](https://github.com/reactioncommerce/example-storefront/pull/591)
+fix: restore empty_node_modules volume [#591](https://github.com/wilsonify/renewed-renaissance-storefront/pull/591)
 
 # v2.5.0
 
-Example Storefront v2.5.0 is a minor update to keep this project in sync with [Reaction v2.5.0](https://github.com/reactioncommerce/reaction) and [reaction-hydra v2.5.0](https://github.com/reactioncommerce/reaction-hydra)
+Renewed Renaissance v2.5.0 is a minor update to keep this project in sync with [Reaction v2.5.0](https://github.com/reactioncommerce/reaction) and [reaction-hydra v2.5.0](https://github.com/reactioncommerce/reaction-hydra)
 
 ## Fixes
 
 fix: Make sure development entry-point runs bin/start by default
-fix: Cannot edit checkout address ([#494](https://github.com/reactioncommerce/example-storefront/issues/494))
+fix: Cannot edit checkout address ([#494](https://github.com/wilsonify/renewed-renaissance-storefront/issues/494))
 
 ## Chores
 
@@ -313,14 +313,14 @@ None
 
 # v2.4.0
 
-Example Storefront v2.4.0 is a minor update to keep this project in sync with [Reaction v2.4.0](https://github.com/reactioncommerce/reaction) and [reaction-hydra v2.4.0](https://github.com/reactioncommerce/reaction-hydra)
+Renewed Renaissance v2.4.0 is a minor update to keep this project in sync with [Reaction v2.4.0](https://github.com/reactioncommerce/reaction) and [reaction-hydra v2.4.0](https://github.com/reactioncommerce/reaction-hydra)
 
 ## Features
-feat: Use host uid:gid and use in docker to avoid file permissions problems ([#576](https://github.com/reactioncommerce/example-storefront/pull/576))
+feat: Use host uid:gid and use in docker to avoid file permissions problems ([#576](https://github.com/wilsonify/renewed-renaissance-storefront/pull/576))
 
 ## Fixes
 
-fix: Resolve broken e2e tests by adding a checkout step in CircleCI ([#580](https://github.com/reactioncommerce/example-storefront/pull/580))
+fix: Resolve broken e2e tests by adding a checkout step in CircleCI ([#580](https://github.com/wilsonify/renewed-renaissance-storefront/pull/580))
 
 ## Breaking Changes
 
@@ -328,30 +328,30 @@ None
 
 # v2.3.0
 
-Example Storefront v2.3.0 is a minor version update to keep this project in sync with [Reaction v2.3.0](https://github.com/reactioncommerce/reaction) and [reaction-hydra v2.3.0](https://github.com/reactioncommerce/reaction-hydra)
+Renewed Renaissance v2.3.0 is a minor version update to keep this project in sync with [Reaction v2.3.0](https://github.com/reactioncommerce/reaction) and [reaction-hydra v2.3.0](https://github.com/reactioncommerce/reaction-hydra)
 
 # v2.2.1
 
-Example Storefront v2.2.1 is a patch update to keep this project in sync with [Reaction v2.2.1](https://github.com/reactioncommerce/reaction) and [reaction-hydra v2.2.1](https://github.com/reactioncommerce/reaction-hydra)
+Renewed Renaissance v2.2.1 is a patch update to keep this project in sync with [Reaction v2.2.1](https://github.com/reactioncommerce/reaction) and [reaction-hydra v2.2.1](https://github.com/reactioncommerce/reaction-hydra)
 
 
 # v2.2.0
 
-Example Storefront v2.2.0 is a minor update to keep this project in sync with [Reaction v2.2.0](https://github.com/reactioncommerce/reaction) and [reaction-hydra v2.2.0](https://github.com/reactioncommerce/reaction-hydra)
+Renewed Renaissance v2.2.0 is a minor update to keep this project in sync with [Reaction v2.2.0](https://github.com/reactioncommerce/reaction) and [reaction-hydra v2.2.0](https://github.com/reactioncommerce/reaction-hydra)
 
 # v2.1.0
 
-Example Storefront v2.1.0 is a minor update to keep this project in sync with [Reaction v2.1.0](https://github.com/reactioncommerce/reaction) and [reaction-hydra v2.1.0](https://github.com/reactioncommerce/reaction-hydra)
+Renewed Renaissance v2.1.0 is a minor update to keep this project in sync with [Reaction v2.1.0](https://github.com/reactioncommerce/reaction) and [reaction-hydra v2.1.0](https://github.com/reactioncommerce/reaction-hydra)
 
 ## Docs
 
-docs(readme): component library naming [#555](https://github.com/reactioncommerce/example-storefront/pull/555)
-docs: Adjust graphiql URLs links and docs [#551](https://github.com/reactioncommerce/example-storefront/pull/551)
+docs(readme): component library naming [#555](https://github.com/wilsonify/renewed-renaissance-storefront/pull/555)
+docs: Adjust graphiql URLs links and docs [#551](https://github.com/wilsonify/renewed-renaissance-storefront/pull/551)
 
 ## Chores
 
-chore: Add 302 redirects to env.EXTERNAL_GRAPHQL_URL [#550](https://github.com/reactioncommerce/example-storefront/pull/550)
-chore: update changelog + version match [#548](https://github.com/reactioncommerce/example-storefront/pull/548)
+chore: Add 302 redirects to env.EXTERNAL_GRAPHQL_URL [#550](https://github.com/wilsonify/renewed-renaissance-storefront/pull/550)
+chore: update changelog + version match [#548](https://github.com/wilsonify/renewed-renaissance-storefront/pull/548)
 
 ## Breaking Changes
 
@@ -363,10 +363,10 @@ Reaction v2.0.0—an API-first, real-time commerce engine built using Node.js, R
 
 This release is coordinated with [Reaction Platform](https://github.com/reactioncommerce/reaction-platform) and is designed to work with the [Reaction](https://github.com/reactioncommerce/reaction) and [reaction-hydra](https://github.com/reactioncommerce/reaction-hydra).
 
-Reaction v2.0.0 is built as a truly headless commerce platform that decouples the Reaction backend services from the frontend. We’ve decoupled the storefront application from the API. Reaction platform now consists of this [Example Storefront](https://github.com/reactioncommerce/example-storefront), which connects with the Reaction application via GraphQL to provide a customer-facing storefront. The API is provided by the [Reaction](https://github.com/reactioncommerce/reaction) project, which is now primarily our GraphQL API. The legacy integrated Meteor storefront is no longer part of the Reaction project.
+Reaction v2.0.0 is built as a truly headless commerce platform that decouples the Reaction backend services from the frontend. We’ve decoupled the storefront application from the API. Reaction platform now consists of this [Renewed Renaissance](https://github.com/wilsonify/renewed-renaissance-storefront), which connects with the Reaction application via GraphQL to provide a customer-facing storefront. The API is provided by the [Reaction](https://github.com/reactioncommerce/reaction) project, which is now primarily our GraphQL API. The legacy integrated Meteor storefront is no longer part of the Reaction project.
 
 ### Notable changes
-This Example Storefront is brand new for the 2.0 version of Reaction. Check out [previous release notes](https://github.com/reactioncommerce/example-storefront/releases) from this project for details and associated issues and PRs.
+This Renewed Renaissance is brand new for the 2.0 version of Reaction. Check out [previous release notes](https://github.com/wilsonify/renewed-renaissance-storefront/releases) from this project for details and associated issues and PRs.
 
 See the release notes for the [Reaction project](https://github.com/reactioncommerce/reaction/releases) for more information about our 2.0 release.
 
@@ -412,12 +412,12 @@ We want to hear from you! Here are some good ways to get in touch.
 - Ask Us Anything! Watch this space for details about an upcoming Community Q&A session with the Reaction team.
 
 # v2.0.0-rc.12
-This is our fourth release candidate for this project. While this project is technically still `pre-release` until we've released the final 2.0.0 version, it's the most stable version of Reaction Commerce, and we recommend starting new projects with it at this point. See https://github.com/reactioncommerce/example-storefront/issues/487#issuecomment-507468894 for more detail on this.
+This is our fourth release candidate for this project. While this project is technically still `pre-release` until we've released the final 2.0.0 version, it's the most stable version of Reaction Commerce, and we recommend starting new projects with it at this point. See https://github.com/wilsonify/renewed-renaissance-storefront/issues/487#issuecomment-507468894 for more detail on this.
 
 This version should be used with `v2.0.0-rc.12` of https://github.com/reactioncommerce/reaction
 
 ## Highlights
-We have [renamed](https://github.com/reactioncommerce/example-storefront/pull/544) this project from `reaction-next-starterkit` to `example-storefront` to better convey the intent behind our creating it.  We’re also [updating our docs](https://github.com/reactioncommerce/reaction-docs/pull/829) to clarify this change.
+We have [renamed](https://github.com/wilsonify/renewed-renaissance-storefront/pull/544) this project from `reaction-next-starterkit` to `renewed-renaissance-storefront` to better convey the intent behind our creating it.  We’re also [updating our docs](https://github.com/reactioncommerce/reaction-docs/pull/829) to clarify this change.
 
 The GraphQL API in [reaction v2.0.0-rc.12](https://github.com/reactioncommerce/reaction/pull/5259) has been changed from `/graphql-alpha` to `graphql-beta` to indicate the increased stability of the API. We think there are still some breaking changes to come in the next 3-6 months to the GraphQL API which is why we're keeping the `-beta` suffix for now. As you find bugs with that API, please file issues in the [reaction](https://github.com/reactioncommerce/reaction/issues) repo.
 
@@ -440,7 +440,7 @@ The GraphQL API in [reaction v2.0.0-rc.12](https://github.com/reactioncommerce/r
 ## Chore
 
 - chore: removes fossa status from readme (#545)
-- chore: rename project to example-storefront (#544)
+- chore: rename project to renewed-renaissance-storefront (#544)
 - chore: fix debugger command in README (#539)
 - chore: change pinned deps to ~ ranges (#538)
 - chore: match license from LICENSE.md and README (#536)

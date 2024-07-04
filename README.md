@@ -1,21 +1,21 @@
-# Example Storefront
+# Renewed Renaissance
 
 [Mailchimp Open Commerce](https://mailchimp.com/developer/open-commerce/) is an API-first, headless commerce platform built using Node.js, React, and GraphQL. It plays nicely with npm, Docker and Kubernetes.
 
-This Example Storefront is to serve as a reference on how to implement a web based storefront using the Reaction Commerce GraphQL API. You can fork this project as a jumping off point or create your own custom experience using your preferred client-side technology. While we believe our example storefront is full-featured enough to use in production, it may be missing features your shop requires at this time.
+This Renewed Renaissance is to serve as a reference on how to implement a web based storefront using the Reaction Commerce GraphQL API. You can fork this project as a jumping off point or create your own custom experience using your preferred client-side technology. While we believe our Renewed Renaissance is full-featured enough to use in production, it may be missing features your shop requires at this time.
 
 ## Features
 
 Mailchimp Open Commerce comes with a robust set of core commerce capabilities right out of the box. And since anything in our codebase can be extended, overwritten, or installed as a package, you may also customize anything on our platform.
 
-This example storefront is built with [Next.js](https://nextjs.org/), [React](https://reactjs.org/), [GraphQL](https://graphql.org/), and [Apollo Client](https://www.apollographql.com/docs/react/)
+This Renewed Renaissance is built with [Next.js](https://nextjs.org/), [React](https://reactjs.org/), [GraphQL](https://graphql.org/), and [Apollo Client](https://www.apollographql.com/docs/react/)
 
-- Headless ecommerce example storefront built with [Next.js](https://nextjs.org/), [React](https://reactjs.org/), [GraphQL](https://graphql.org/), [Apollo Client](https://www.apollographql.com/docs/react/)
+- Headless ecommerce Renewed Renaissance built with [Next.js](https://nextjs.org/), [React](https://reactjs.org/), [GraphQL](https://graphql.org/), [Apollo Client](https://www.apollographql.com/docs/react/)
 - [Reaction GraphQL API](https://github.com/reactioncommerce/reaction/tree/master/imports/plugins/core/graphql) integration
 - Server-side rendering
 - Payments with [Stripe](https://stripe.com/) with Strong Customer Authentication included.
 - Analytics with [Segment](https://segment.com/) or any other provider
-- Reusable, customizable, themeable ecommerce React components from the [Example Storefront Component Library](https://github.com/reactioncommerce/reaction-component-library/) with [Styled Components](https://www.styled-components.com/)
+- Reusable, customizable, themeable ecommerce React components from the [Renewed Renaissance Component Library](https://github.com/reactioncommerce/reaction-component-library/) with [Styled Components](https://www.styled-components.com/)
 - Written in ES6, configured with ES6
 - Containerized with Docker
 
@@ -28,7 +28,7 @@ Follow the [Quick Start Guide](https://mailchimp.com/developer/open-commerce/gui
 | [`reaction`](https://github.com/reactioncommerce/reaction): GraphQL API                       | [localhost:3000/graphql](localhost:3000/graphql) ||
 | [`reaction-admin`](https://github.com/reactioncommerce/reaction-admin): Reaction Admin        | [localhost:4080](localhost:4080)                 |
 | [`reaction`](https://github.com/reactioncommerce/reaction): MongoDB                           | [localhost:27017](localhost:27017)               |
-| [`example-storefront`](https://github.com/reactioncommerce/example-storefront): Storefront    | [localhost:4000](localhost:4000)                 |
+| [`renewed-renaissance-storefront`](https://github.com/wilsonify/renewed-renaissance-storefront): Storefront    | [localhost:4000](localhost:4000)                 |
 
 **Note**: The storefront has redirects so that if you open [http://localhost:4000/graphql](http://localhost:4000/graphql), you'll be redirected to the GraphQL Playground.
 
@@ -49,16 +49,16 @@ Read the docs for [setting up Segment or a custom analytics tracker](docs/tracki
 
 ## Documentation
 
-- [Example Storefront full documentation](./docs)
-- [Example Storefront Component Library repository](https://github.com/reactioncommerce/reaction-component-library), [documentation](https://github.com/reactioncommerce/reaction-component-library/tree/master/docs)
+- [Renewed Renaissance full documentation](./docs)
+- [Renewed Renaissance Component Library repository](https://github.com/reactioncommerce/reaction-component-library), [documentation](https://github.com/reactioncommerce/reaction-component-library/tree/master/docs)
 - [Reaction Docs: Testing with Jest](https://mailchimp.com/developer/open-commerce/docs/testing-requirements/)
 
 ## Development
 
-The Reaction Platform runs the storefront with Docker, so you will have to use Docker commands to view logs, run commands inside the container and more. To run commands specifically for the storefront, make sure to change directories into the `example-storefront` directory within the `reaction-platform` repository:
+The Reaction Platform runs the storefront with Docker, so you will have to use Docker commands to view logs, run commands inside the container and more. To run commands specifically for the storefront, make sure to change directories into the `renewed-renaissance-storefront` directory within the `reaction-platform` repository:
 
 ```sh
-cd example-storefront
+cd renewed-renaissance-storefront
 ```
 
 ### Build and run in development mode with logs
@@ -151,13 +151,13 @@ docker-compose up -d --build
 
 ### Testing component library in the storefront
 
-Sometimes we need to test the [Example Storefront Component Library](https://github.com/reactioncommerce/reaction-component-library) components in the context of the storefront. Unfortunately, there isn't an easy wasy to do this within our Docker containers, so we need to run the `storefront` outside of docker.
+Sometimes we need to test the [Renewed Renaissance Component Library](https://github.com/reactioncommerce/reaction-component-library) components in the context of the storefront. Unfortunately, there isn't an easy wasy to do this within our Docker containers, so we need to run the `storefront` outside of docker.
 
 1. `cd` to your local [`reaction-component-library`](https://github.com/reactioncommerce/reaction-component-library) repo.
 1. Git checkout the proper branch that you want to link
 1. `cd` into the `package` folder of this repo, and run the command `yarn install` followed by `yarn build`
 1. After the build is done, `cd` into the new `dist` folder it just built and run `yarn link` to allow the library to be installed into the storefront. This will link `@reactioncommerce/components`
-1. Inside the `example-storefront` repo, temporarily rename your `.yarnrc` file to anything else (i.e. `.yarnrc-temp`)
+1. Inside the `renewed-renaissance-storefront` repo, temporarily rename your `.yarnrc` file to anything else (i.e. `.yarnrc-temp`)
 1. Run `yarn install` and then the command `yarn link "@reactioncommerce/components"` to set the local version as an override of the published npm version
 1. Inside your `.env` file, change `INTERNAL_GRAPHQL_URL` to equal `http://localhost:3000/graphql`, the same as the `EXTERNAL_GRAPHQL_URL`
 1. Start the storefront locally by running the command `export $(cat .env | xargs) && yarn dev`
@@ -196,7 +196,7 @@ Sometimes it is helpful during development to make a production build of the app
 Run this command to build a Docker image with the production build of the app in it:
 
 ```sh
-docker build --network=host -t  reactioncommerce/example-storefront:X.X.X .
+docker build --network=host -t  wilsonify/renewed-renaissance-storefront:X.X.X .
 ```
 
 Where X.X.X indicates the tag version you want to use, i.e. `3.1.0`
@@ -204,7 +204,7 @@ Where X.X.X indicates the tag version you want to use, i.e. `3.1.0`
 Then, to start the app on your machine, make sure the Reaction API container is already running and enter:
 
 ```sh
-docker run -it --name storefront -p 4000:4000 --env-file .env.prod --network reaction.localhost reactioncommerce/example-storefront:X.X.X
+docker run -it --name storefront -p 4000:4000 --env-file .env.prod --network reaction.localhost wilsonify/renewed-renaissance-storefront:X.X.X
 ```
 
 _**NOTE:** You can replace the number before the colon in `4000:4000` with a different localhost port you'd like the application to run at._
@@ -219,11 +219,11 @@ docker stop reaction-storefront
 
 ## Contribute
 
-Find a bug, a typo, or something that’s not documented well? We’d love for you to [open an issue](https://github.com/reactioncommerce/example-storefront/issues) telling us what we can improve! This project uses [semantic-release](https://semantic-release.gitbook.io/semantic-release/), please use their [commit message format.](https://semantic-release.gitbook.io/semantic-release/#commit-message-format).
+Find a bug, a typo, or something that’s not documented well? We’d love for you to [open an issue](https://github.com/wilsonify/renewed-renaissance-storefront/issues) telling us what we can improve! This project uses [semantic-release](https://semantic-release.gitbook.io/semantic-release/), please use their [commit message format.](https://semantic-release.gitbook.io/semantic-release/#commit-message-format).
 
 Want to request a feature? Use our [Reaction Feature Requests repository](https://github.com/reactioncommerce/reaction-feature-requests) to file a request.
 
-We love your pull requests! Check our our [`Good First Issue`](https://github.com/reactioncommerce/example-storefront/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22) and [`Help Wanted`](https://github.com/reactioncommerce/example-storefront/issues?q=label%3A%22help+wanted%22) tags for good issues to tackle.
+We love your pull requests! Check our our [`Good First Issue`](https://github.com/wilsonify/renewed-renaissance-storefront/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22) and [`Help Wanted`](https://github.com/wilsonify/renewed-renaissance-storefront/issues?q=label%3A%22help+wanted%22) tags for good issues to tackle.
 
 ### Pull Request guidelines
 
@@ -291,4 +291,4 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.
 
-[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Freactioncommerce%2Fexample-storefront.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Freactioncommerce%2Fexample-storefront?ref=badge_large)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Freactioncommerce%2Frenewed-renaissance-storefront.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Freactioncommerce%2Frenewed-renaissance-storefront?ref=badge_large)
