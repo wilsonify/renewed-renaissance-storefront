@@ -44,7 +44,7 @@ Uses a Tag's `metafields` field to store an array of data, including metadata to
     "tag": {
       "position": 2,
       "slug": "shirts",
-      "heroMediaUrl": "http://localhost:3000/assets/files/Media/uEmGFBpaFpB8XKqh3/large/shirts.png",
+      "heroMediaUrl": "http://web:3000/assets/files/Media/uEmGFBpaFpB8XKqh3/large/shirts.png",
       "metafields": [
         {
           "key": "keywords",

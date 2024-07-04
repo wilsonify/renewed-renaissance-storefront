@@ -1,11 +1,16 @@
-FROM node:12-alpine
+FROM node:12-buster-slim
+ENV PORT=4000
+ENV CANONICAL_URL=http://web:4000
+ENV BUILD_GRAPHQL_URL=http://localhost:3000/graphql
+ENV EXTERNAL_GRAPHQL_URL=http://localhost:3000/graphql
+ENV INTERNAL_GRAPHQL_URL=http://localhost:3000/graphql
+ENV SEGMENT_ANALYTICS_SKIP_MINIMIZE=true
+ENV SEGMENT_ANALYTICS_WRITE_KEY=ENTER_KEY_HERE
+ENV SESSION_MAX_AGE_MS=2592000000
+ENV SESSION_SECRET=CHANGEME
+ENV STRIPE_PUBLIC_API_KEY=ENTER_STRIPE_PUBLIC_KEY_HERE
 
-ARG NEXTJS_DOTENV
-
-ENV NEXTJS_DOTENV=$NEXTJS_DOTENV
-
-# hadolint ignore=DL3018
-RUN apk --no-cache add bash curl less tini vim make
+RUN apt-get update && apt-get install -y curl tini vim make
 SHELL ["/bin/bash", "-o", "pipefail", "-o", "errexit", "-u", "-c"]
 
 WORKDIR /usr/local/src/app
@@ -25,12 +30,11 @@ RUN yarn install --production=false --frozen-lockfile --ignore-scripts --non-int
 
 ENV BUILD_ENV=production NODE_ENV=production
 
-# hadolint ignore=SC2046
-RUN export $(grep -v '^#' .env.${NEXTJS_DOTENV:-prod} | xargs -0) && yarn build
+RUN yarn build
 
 # Install only prod dependencies now that we've built, to make the image smaller
-RUN rm -rf node_modules/*
-RUN yarn install --production=true --frozen-lockfile --ignore-scripts --non-interactive
+#RUN rm -rf node_modules/*
+#RUN yarn install --production=true --frozen-lockfile --ignore-scripts --non-interactive
 
 # If any Node flags are needed, they can be set in the NODE_OPTIONS env variable.
 CMD ["tini", "--", "yarn", "start"]
