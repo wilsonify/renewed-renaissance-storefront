@@ -11,14 +11,23 @@ networks:
 
 services:
   web:
+    depends_on: [ mongo ]
     image: renewed-renaissance-storefront:latest
     env_file: [ ./.env ]
     networks: [ reaction ]
     ports:
       - 4000:4000
-  init:
-    image: reaction-cli:latest
-    env_file: [ ./.env ]
-    entrypoint: [ /usr/local/bin/npx ]
-    command: [ reaction create-project admin myadmin ]
+      - 4080:4080
+
+  mongo:
+    image: mongo:5.0
+    command: mongod --oplogSize 128 --replSet rs0 --storageEngine=wiredTiger
     networks: [ reaction ]
+    ports:
+      - "27017:27017"
+    volumes:
+      - /opt/renewed-renaissance/data/db:/data/db
+    healthcheck: # re-run rs.initiate() after startup if it failed.
+      test: test $$(echo "rs.status().ok || rs.initiate().ok" | mongo --quiet) -eq 1
+      interval: 10s
+      start_period: 30s
