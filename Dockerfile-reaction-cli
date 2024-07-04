@@ -1,5 +1,0 @@
-FROM node:12-alpine
-RUN mkdir -p /usr/local/lib/node_modules
-RUN chown -R node:node /usr/local/lib/node_modules
-USER node
-RUN npm install -g reaction-cli
